@@ -1,10 +1,101 @@
 #header{
     font-size: 50pt;
     text-align: center;
+    padding: 100;
+    background-color: rgb(197, 0, 43);
+    border-bottom: solid 1pt white;
+    font-weight: bold;
+    font-family: fantasy;
+    color: black;
+
 }
 
 #timer{
     font-weight: bold;
     font-size: 20pt;
     text-align: center;
+    color: yellow;
+}
+
+ .container{
+    border: double 20pt white;
+    margin: 40px 0px 0px 60px;
+} 
+
+
+html{
+    background-color: black;
+
+} 
+.body{
+    background-color: black;
+}
+
+#start{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 20pt;
+    color: darkblue;
+    width: 50%;
+    border: solid 5pt rgb(197, 0, 43);
+}
+#reset{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 20pt;
+    color: darkblue;
+    width: 50%;
+    border: solid 5pt rgb(197, 0, 43);
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 20pt;
+    color: darkblue;
+    width: 100%;
+    border: solid 5pt rgb(197, 0, 43);
+
+ }
+ button:hover {
+    background-color: yellow;
+  }
+  #reset:hover {
+    background-color: yellow;
+  }
+  #start:hover {
+    background-color: rgb(97, 216, 0);
+  }
+
+p{
+    color: rgb(197, 0, 43);
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace
+}
+
+h4{
+    color: rgb(0, 255, 0);
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace
+}
+
+div{
+   background-color: black; 
+}
+
+#questions{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: dotted 1pt white;
+    
+
+}
+
+h3{
+    color: white;
 }
